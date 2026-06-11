@@ -1,0 +1,108 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+
+h1{
+    margin-top: 30px;
+    text-align: center;
+    font-weight:bolder;
+    color:dimgrey;
+    font-size:35px;
+}
+
+body{
+    background-color:gainsboro;
+
+}
+
+
+p{
+    margin-top: 4px;
+    text-align: center;
+    font-weight: lighter;
+    color:dimgray;
+}
+
+
+.btn{
+    margin: 20px;
+    text-align: center;
+}
+
+button{
+    width: 22%;
+    border-radius: 15px;
+    padding: 8px;
+    background-color:dimgrey;
+    color:snow;
+    border: none;
+    font-size:medium;
+    
+}
+
+button:hover{
+    transform:scale(0.95);
+    transition: 0.4ms;
+   cursor: pointer;
+}
+
+.container{
+   text-align: center;
+}
+
+img{
+   
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px 1px dimgrey;
+    width: 45%;
+    height: 40%;
+}
+
+.load{
+    font-size: 30px;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media(max-width:1000px){
+    img{
+        height: 50%;
+        width: 50%;
+    }
+
+    button{
+        width:50%;
+    }
+}
+
+@media (max-width:571px){
+    img{
+        height: 65%;
+        width: 65%;
+    }
+    button{
+        width: 60%;
+    }
+}
+
+
+@media (max-width:471px){
+    h1{
+        font-size: 30px;
+    }
+    img{
+        height: 100%;
+        width: 75%;
+    }
+    button{
+        width: 65%;
+    }
+}
+
+
